@@ -31,6 +31,8 @@ int charsFromOnesPlace(int n){
   }
 }
 
+// Works similarly to charsFromOnesPlaces, but has added options for the teen numbers,
+// Which add logistical issues.
 int charsFromTensPlace(int n){
   int tensDigit = (n/10) % 10;
   switch(tensDigit){
@@ -112,6 +114,7 @@ int main(){
     }
     sum += total;
   }
+  // Add "one thousand"
   sum += 11;
 
   cout << "Total sum: " << sum << endl;
