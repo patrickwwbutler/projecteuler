@@ -1,4 +1,5 @@
 //created by Patrick Butler 8/18/17
+// This file contains the code used to solve problems 1-16 on projecteuler.net
 
 #include <cstdlib>
 #include <iostream>
